@@ -13,20 +13,21 @@
 ## Questions
 1. How this code can sort number from smaller to larger
  
-Answer: 
+Answer: from condition if (input[i] > input[i + 1]) will two number swap it mean if data in input[i] larger data in input [i+1] it will swap 
 
 2. What if two numbers equal, what will happen? 
 
-Answer: 
+Answer: it is not swap and then it will check the next number
 
 3. How many times at line 24 will be executed (as a function of the size of input) 
 
-Answer: 
+Answer: 27 time
 
 4. Why we need flag variable ? 
 
-Answer: 
+Answer: will check condition if have not flag this program will run only one time so the sort number is not complete
 
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
-Answer:
+Answer: faster because  the code run 1 time and sort number is not complete
+the number when remove flag 4 2 5 8 1 2 4 3 1 9
