@@ -30,4 +30,5 @@ Answer: will check condition if have not flag this program will run only one tim
 5. When we remove the flag variable, the code will run faster or slower? in which scenario? 
 
 Answer: faster because  the code run 1 time and sort number is not complete
-the number when remove flag 4 2 5 8 1 2 4 3 1 9
+the number when remove flag sort number are 4 2 5 8 1 2 4 3 1 9
+the commit number d2ac7486 
