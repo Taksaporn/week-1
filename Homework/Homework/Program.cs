@@ -22,7 +22,9 @@ namespace HW1
         }
         static void Main(string[] args)
         {
-            int j = 5;
+           
+            Console.Write("Enter number for calculate in factorial:" );
+            int j=Convert.ToInt16( Console.ReadLine());
             Console.WriteLine(process(j));
             Console.ReadKey();
         }
