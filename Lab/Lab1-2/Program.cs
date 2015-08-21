@@ -10,18 +10,25 @@ namespace Lab1_2
     {
         static void Main(string[] args)
         {
-            BubbleSortFunction  ip = new BubbleSortFunction(); // if not call class is not call function plss remember
-            int[] a = ip.input();
-            ip.process(a);
-            ip.output(a);
+            BubbleSortFunction  iput = new BubbleSortFunction(); // if not call class is not call function plss remember
+            
+            int[] a = iput.input();
+            iput.process(a);
+            iput.output(a);
           
         } 
         
         // input
         public int []input()
-        { 
-             int [] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
-             return x;
+        {
+            string v;
+            Console.Write("Enter number for sort: ");
+            v = Console.ReadLine();
+            int[] input;
+            input = v.Split(' ').Select(y => Convert.ToInt32(y)).ToArray();
+            return input;
+            //int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            //return x;
         }
 
         public void process(int[] input) {
