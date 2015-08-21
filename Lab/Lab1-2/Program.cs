@@ -27,6 +27,7 @@ namespace Lab1_2
             int[] input;
             input = v.Split(' ').Select(y => Convert.ToInt32(y)).ToArray();
             return input;
+
             //int[] x = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
             //return x;
         }
